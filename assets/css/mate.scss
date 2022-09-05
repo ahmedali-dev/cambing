@@ -1,0 +1,229 @@
+@import './function';
+//postion
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    // width: 100%;
+}
+
+.left-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+//////////   //   ///////////  //        //
+//           //   //             //     //
+/////////    //   //              //  //
+//           //   //                //
+//           //   ///////////     // //
+//           //   //             //   //
+//           //   ///////////   //     //  
+//flex
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-warp {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-left {
+    align-items: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+//color
+.black {
+    color: #333;
+}
+
+.blue {
+    color: #086cee;
+}
+
+.light-blue {
+    color: #30c2e0;
+}
+
+.burble {
+    color: #45429e;
+}
+
+.list-burble {
+    color: #a884e2;
+}
+
+.white {
+    color: white;
+}
+
+//background
+.back-burble {
+    background: #45429e;
+}
+
+.back-lightburble {
+    background-color: #a884e2;
+}
+
+.back-lightblue {
+    background: #30c2e0;
+}
+
+.back-white {
+    background: white;
+}
+
+//cursoer
+.cursor {
+    cursor: pointer;
+}
+
+//box-shadow
+.box-shadow1 {
+    box-shadow: 1px 1px 17px #05050515;
+}
+
+.box-burble {
+    box-shadow: 1px 1px 16px #45429e;
+}
+
+//radius
+.radius-s {
+    border-radius: 5px;
+}
+
+.radius-half {
+    border-radius: 50%;
+}
+
+.radius-50px {
+    border-radius: 50px;
+}
+
+.radius-20px {
+    border-radius: 20px;
+}
+
+///////////////
+//////////////@at-root
+.border-none {
+    border: none;
+}
+
+//font
+.font-s-m {
+    font-size: 1.4rem;
+}
+
+
+
+//////////////////@at-root/@at-root/@at-root
+/////////////////////////////////////
+//////////////////////////////////////
+.pd-5 {
+    padding: 5px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pd-40 {
+    padding: 40px;
+}
+
+.mgLf-auto {
+    margin-left: auto;
+}
+
+
+
+
+
+
+///////////////////////////////////////////////////@at-root
+///////////////////////////////////////////////////////@at-root
+//img
+.img-1{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: var(--shadow-1);
+}
+
+
+
+
+
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+//button
+.button-1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: var(--shadow-1);
+}
